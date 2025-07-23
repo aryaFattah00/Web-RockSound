@@ -16,17 +16,17 @@ body {
 
 /* Bagian kiri */
 .Box-container-kiri {
-    position: relative;
-    width: 35vw;
-    height: 100vh;
-    transform: translateX(-436px);
-    padding: 2rem;
-    display: flex;
-    /* background-color: snow; */
-    box-sizing: border-box;
-    flex-direction: column;
-    align-items: flex-start;
-    overflow-y: auto;
+  position: relative;
+  width: 35vw;
+  height: 100vh;
+  transform: translateX(-436px);
+  padding: 2rem;
+  display: flex;
+  /* background-color: grey; */
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
 }
 .Box-container-kiri{
     scroll-behavior: smooth;
@@ -36,36 +36,35 @@ body {
 }
 
 .Box-container-kiri h1 {
-/* Selamat datang di RockSound */
-    font-family: 'Poppins', sans-serif;
-    transform:translate(6rem, 11rem)  ;
-    font-size: 1.8rem;       /* setara ~24px */
-    line-height: 1.3;        /* ~31px */
-    text-align: center;
-    color: #000;
-    margin-bottom: 1rem;
-    font-style: normal;
-    font-weight: 600;
-    display: flex;
+  font-family: 'Poppins', sans-serif;
+  transform:translate(6rem, 11rem)  ;
+  font-size: 1.8rem;     
+  line-height: 1.3;        
+  text-align: center;
+  color: #000;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
 }
 
 .Box-container-kiri h2 {
-    transform:translate(3rem, 11rem)  ;
-    font-family: 'poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size:1rem; /* 14px */
-    line-height: 1.2;     /* atau 1.0625rem (17px) jika ingin pas */
-    text-align: center;
-    color: #000000;
-    max-width: 350px;
-    display: block;
+  transform:translate(3rem, 11rem)  ;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size:1rem; /* 14px */
+  line-height: 1.2;     /* atau 1.0625rem (17px) jika ingin pas */
+  text-align: center;
+  color: #000000;
+  max-width: 350px;
+  display: block;
 }
 
 .Box-container-kiri form {
-    display: flex;
-    flex-direction: column;
-    transform: translate(3rem, 13rem);
+  display: flex;
+  flex-direction: column;
+  transform: translate(3rem, 13rem);
 }
 
 .Box-container-kiri label {
@@ -83,20 +82,20 @@ body {
 }
 
 .Box-container-kiri button[type="submit"] {
-    position: absolute;
-    width: 55px;
-    height: 18px;
-    left: 163px;
-    top: 133px;
+  position: absolute;
+  width: 67px;
+  height: 31px;
+  left: 117px;
+  top: 170px;
 
-    background: black;
-    border: 1px solid black;
-    border-radius: 3px;
-    color: #ffffff;
-    font-size: 10px;
-    font-style: normal;
-    font-family: 'poppins';
-    font-weight: 500;
+  background: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 11px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 
   cursor: pointer;
   transition: background 0.3s ease;
@@ -107,10 +106,6 @@ body {
   background-color: #555;
 }
 
-.atau, .sosial, .signup {
-  margin-top: 1rem;
-  text-align: center;
-}
 
 .sosial button {
   margin: 0.5rem;
@@ -121,68 +116,215 @@ body {
   border-radius: 6px;
 }
 
-
 .p1 {
   display: block;
-  transform: translateX(7.3rem); /* geser ke kanan */
+  transform: translateX(7.3rem);
   font-family: 'Inter', sans-serif;
-  font-size: 0.5rem; /* 8px */
-  line-height: 0.625rem; /* 10px */
+  font-size: 0.5rem; 
+  line-height: 0.625rem; 
   font-weight: 500;
   color: #000;
   margin-bottom: 0.5rem;
 }
-
-input[type="email"] {
-    position: relative;
-    width: 223px;
-    height: 33px;
-    left: 46px;
-    top: 5px;
-
-    background: #FBFBFB;
-    border: 1px solid #000000;
-    border-radius: 10px;
-
-    padding:0rem 2rem; /* Biar isi tidak mentok ke pinggir */
-    font-family: 'Inter', sans-serif;
-    font-size: 0.75rem; /* Sekitar 12px */
-    box-sizing: border-box;
+.p2 {
+  display: block;
+  transform: translateX(7.6rem); 
+  font-family: 'Inter', sans-serif;
+  font-size: 0.5rem; 
+  line-height: 0.625rem; 
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 0.5rem;
 }
-.fotosurat{
-position: relative;
+.atau{
+  position: absolute;
+  width: 136px;
+  height: 10px;
+  left: 72px;
+  top: 217px;
+
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+
+  color: #000000;
+  white-space: nowrap;  
+}
+.google{
+
+  position: absolute;
+  width: 125px;
+  height: 36px;
+  left: 81px;
+  top: 231px;
+}
+.Facebook{
+position: absolute;
+width: 125px;
+height: 36px;
+left: 81px;
+top: 281px;
+}
+.signup button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.tombolsignup{
+    position: absolute;
+    width: 125px;
+    height: 36px;
+    left: 161px;
+    top: 768px;
+}
+.kata{
+  position: absolute;
+  width: 102px;
+  height: 9px;
+  left: 21px;
+  top: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 8px;
+  text-align: center;
+  color: #000000;
+}
+.kata2{
+position: absolute;
+width: 112px;
+height: 9px;
+left: 12px;
+top: 9px;
+
+font-family: 'Poppins', sans-serif;
+font-style: bold;
+font-weight: 500;
+font-size: 10px;
+line-height: 9px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+.kata3{
+position: absolute;
+width: 82px;
+height: 9px;
+left: 28px;
+top: 11px;
+
+font-family:  'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 10px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+.tanya{
+    position: absolute;
+    width: 99px;
+    height: 10px;
+    left: 183px;
+    top: 752px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.gmbrg{
+position: absolute;
+  width: 16px;
+  height: 16px;
+left: 4px;
+    top: 8px;
+}
+.gmbrfb{
+position: absolute;
+    width: 17px;
+    height: 17px;
+left: 5px;
+    top: 8px;
+}
+.gmbradd{
+position: absolute;
 width: 16px;
 height: 16px;
-left: 54px;
-top: -36px;
+    left: 7px;
+    top: 8px;
+}
+
+.google, .Facebook {
+  border: 2px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.google:hover, .Facebook:hover,.tombolsignup:hover {
+  border-color: #000; /* jadi hitam saat disentuh */
+  border-width: 1.5px;
+}
+
+
+input[type="email"] {
+  position: relative;
+  width: 223px;
+  height: 33px;
+  left: 46px;
+  top: 5px;
+
+  background: #FBFBFB;
+  border: 1px solid #000000;
+  border-radius: 10px;
+
+  padding:0rem 2rem; /* Biar isi tidak mentok ke pinggir */
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem; /* Sekitar 12px */
+  box-sizing: border-box;
+}
+.fotosurat{
+  position: relative;
+  width: 16px;
+  height: 16px;
+  left: 54px;
+  top: -36px;
 }
 
 input[type="password"]{
-    /* Rectangle */
+  position: absolute;
+  width: 223px;
+  height: 33px;
+  left: 46px;
+  top: 99px;
 
-position: absolute;
-width: 223px;
-height: 28px;
-left: -5px;
-top: 94px;
+  background: #FBFBFB;
+  border: 1px solid #000000;
+  border-radius: 10px;
 
-
-background: #FBFBFB;
-border: 1px solid #000000;
-border-radius: 10px;
-
-padding:0rem 2rem; /* Biar isi tidak mentok ke pinggir */
-font-family: 'poppins', sans-serif;
-font-size: 0.75rem; /* Sekitar 12px */
-box-sizing: border-box;
+  padding:0rem 2rem; /* Biar isi tidak mentok ke pinggir */
+  font-family: 'poppins', sans-serif;
+  font-size: 0.75rem; /* Sekitar 12px */
+  box-sizing: border-box;
 
 }
 .gembok{
     position: relative;
-    width: 15px;
-    height: 15px;
-    left: 2px;
-    top: 6px;
+    width: 16px;
+    height: 16px;
+    left: 54px;
+    top: 12px;
 }
 
 .forgot{
@@ -191,21 +333,20 @@ box-sizing: border-box;
 position: relative;
 width: 73px;
 height: 7px;
-    left: 0px;
-    top: 28px;
+    left: 50px;
+    top: 30px;
 
-font-family: 'poppins';
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 10px;
 text-align: center;
 
+
 color: #000000 !important;
 white-space: nowrap;
 text-decoration: none !important;
-
-
 }
 
 
