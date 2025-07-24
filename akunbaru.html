@@ -1,18 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>haloo</title>
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buat Akun Baru</title>
+  <link rel="stylesheet" href="akunbaru.css" />
 </head>
 <body>
-    <h1>hallo</h1>
+  <main class="container">
+    <section class="Box-container-kiri">
+      <h1>Buat Akun Baru?</h1>
+      <h2>
+        Buat akun baru untuk masuk dan melihat<br />
+        alat musik yang Anda minati
+      </h2>
+
+      <form action="/login" method="POST" class="form-akun">
+        <div class="form-group">
+          <label class="p3" for="user">Nama Anda</label>
+          <input type="text" name="user" id="user" placeholder="Masukkan nama anda" />
+          <img class="fotocustomer" src="foto/customer.png" alt="Ikon pengguna" />
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="p1">Email Anda</label>
+          <input type="email" id="email" name="email" placeholder="Masukkan email anda" />
+          <img class="fotosurat" src="foto/letter.png" alt="Ikon email" />
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="p2">Password</label>
+          <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" />
+          <img class="gembok" src="foto/padlock.png" alt="Ikon gembok" />
+        </div>
+
+        <div class="forgot">
+          <a href="#">Lupa kata sandi?</a>
+        </div>
+
+        <button type="submit">Masuk</button>
+
+        <div class="atau">Atau buat akun dengan cara yang lain?</div>
+
+        <div class="sosial">
+          <button type="button" class="google">
+            <span class="kata">Masuk dengan Google</span>
+            <img class="gmbrg" src="foto/google.png" alt="Logo Google" />
+          </button>
+          <button type="button" class="Facebook">
+            <span class="kata2">Masuk dengan Facebook</span>
+            <img class="gmbrfb" src="foto/facebook.png" alt="Logo Facebook" />
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <aside class="Box-container-kanan">
+      <img src="foto/bgRck.png" alt="Ilustrasi alat musik" />
+    </aside>
+  </main>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
